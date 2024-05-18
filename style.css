@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    height:100vh;
+}
+
+button{
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    gap:16px;
+    font-size:18px;
+    color:#e5e7eb;
+    display:flex;
+
+}
+
+.first-container{
+    background-color:#1F2937;
+    display:flex;
+    justify-content:space-around;
+    min-width:50%;
+    min-height:500px;
+}
+
+.left{
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    
+}
+
+.logo{
+    font-size:24px;
+    color:#f9faf8;
+    padding:16px;
+}
+
+.hero-text{
+    font-size:48px;
+    font-weight:bolder;
+    color:#f9faf8;
+    padding:16px;
+    width:400px;
+    margin-top:60px;
+}
+
+.hero-content{
+    font-size:18px;
+    color:#e5e7eb;
+    font-weight:100;
+}
+
+.signup{
+    background:royalblue;
+    border:1px solid royalblue;
+    color:white;
+}
+
+.block{
+    background-color:gray;
+    min-width:100%;
+    height:200px;
+    margin-top:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.right{
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+    align-items:end;
+    min-width:0;
+}
+
+.second-container{
+    text-align:center;
+    min-height:500px;
+    background:lightgray;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border:3px solid royalblue;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+.text{
+    width:150px;
+}
+
+.title{
+    font-size:36px;
+    font-weight:bolder;
+    color:#1f2937;
+    margin-bottom:32px;
+    padding-top:32px;
+  }
+
+.information{
+    display:flex;
+    justify-content:center;
+    gap:52px;
+}
+
+.third-container{
+    background:#E5E7EB;
+    min-width:50%;
+    min-height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.quote{
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+    width:80%;
+}
+
+.name{
+    min-width:80%;
+    padding-right:32px;
+    color:#1f2937;
+    font-weight:bolder;
+    font-size:16px;
+    display:flex;
+    justify-content:flex-end;
+}
+
+
