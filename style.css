@@ -139,4 +139,35 @@ img {
     justify-content:flex-end;
 }
 
+.fourth-container{
+    background:lightgray;
+    min-width:50%;
+    min-height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
+
+.action{
+    font-weight:bolder;
+    background:royalblue;
+    color:white;
+    width:80%;
+    height:100px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.product{
+    font-weight:100;
+}
+
+.signupbox{
+    background:royalblue;
+    color:white;
+    border:1px solid white;
+}
